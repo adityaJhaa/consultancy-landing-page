@@ -1,8 +1,26 @@
 .super-container{
     display:flex;
     flex-direction:column;
+    
 }
 
 .box{
     flex:1;
+    
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.header,.footer{
+    flex:1;
+    color:white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+li{
+    width:100px;
 }
