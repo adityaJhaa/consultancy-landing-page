@@ -1,19 +1,15 @@
-.super-container{
-    display:flex;
-    flex-direction:column;
-    
-}
 
-.box{
-    flex:1;
-    
-}
+
+
 
 body{
     display:flex;
     flex-direction:column;
+    margin: 0;
+    padding: 0;
     
 }
+
 
 .header,.footer{
     flex:1;
@@ -23,4 +19,9 @@ body{
 }
 li{
     width:100px;
+}
+.consultants{
+  box-shadow: 5px 3px 19px ;
+  height:300px;
+  text-align: center;
 }
